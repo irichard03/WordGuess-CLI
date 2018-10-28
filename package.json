@@ -1,0 +1,22 @@
+{
+  "name": "wordguess-cli",
+  "version": "1.0.0",
+  "description": "A word Guess Game to practice using Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irichard03/WordGuess-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irichard03/WordGuess-CLI/issues"
+  },
+  "homepage": "https://github.com/irichard03/WordGuess-CLI#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  }
+}
