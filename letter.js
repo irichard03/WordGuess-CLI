@@ -1,17 +1,17 @@
 //todo constructor called letter
-function Letter (pick){
-    this.character = pick;
+function Letter (letterObj){
+    this.letter = letterObj;
     this.guessed = false;
     this.placHolder = "_";
     
     this.toString = function(){
-        console.log(this.character);
+        console.log(this.letter);
     };
 //Function takes in argument and returns character if it matches a character in the word?
     this.checkLetter = function(guess){
-        if(guess === this.character){
+        if(guess === this.letter){
             this.guessed = true;
-            return this.character;
+            return this.letter;
         }else return this.guessed;
     };
     
